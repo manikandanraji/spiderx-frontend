@@ -33,7 +33,7 @@ const db = firebase.firestore();
 export default db;
 ```
 
-2. You need to configure .env at the root the project
+2. You need to configure .env at the root of the project
 
 ```javascript
 VUE_APP_SPIDERX_HEROKU=<URLHERE> // the python scraper will be up soon 
