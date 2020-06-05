@@ -66,8 +66,8 @@ li {
   cursor: pointer;
 }
 
-.router-link-exact-active {
-  color: var(--accentColor);
+li:hover {
+	color: var(--accentColor);
 }
 
 @media screen and (max-width: 650px) {
