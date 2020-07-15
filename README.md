@@ -1,5 +1,5 @@
 # SpiderX
-SpiderX allows you to watch movies by scraping data from the internet. The frontend is built with Vue.js and the scraping process in handled by python scrapy framework.
+SpiderX allows you to watch movies by scraping data from the internet. The frontend is built with Vue.js and the scraping process is handled by python scrapy framework.
 
 ## How it works
 1. The user searches will be first sent to firestore, if the search is not found in the firestore then the scraper (python scrapy framework) will be called to initiate the scraping process.
