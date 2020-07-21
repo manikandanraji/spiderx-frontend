@@ -12,7 +12,6 @@ SpiderX allows you to watch movies by scraping data from the internet. The front
 3. List movies by genres
 4. Trailers for those movies
 5. Get info about the movie
-6. Ofcourse, watch the movie itself
 
 ## Running locally
 
