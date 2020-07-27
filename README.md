@@ -1,18 +1,18 @@
 # SpiderX
 **SpiderX** allows you to **watch movies** by **scraping data from the internet**. The frontend is **built with Vue.js** and the scraping process is handled by **python scrapy framework**.
-***
+
 ## How it works
 1. The user searches will be first sent to ***firestore***, if the search is not found in the ***firestore*** then the scraper (python scrapy framework) will be called to initiate the scraping process.
 2. Once the scraper scrapes the data, the data scraped will be sent to *firestore*.
 3. Using ***firestore real-time updates, the vue interface will be updated in real-time.***
-***
+
 ## Features
 1. **Get trending movies**
 2. **Get tob imdb movies**
 3. **List movies by genres**
 4. **Trailers for those movies**
 5. **Get info about the movie**
-***
+
 ## Running locally
 
 1. **You need to setup firestore and initialize the db in src/firebase.js**
@@ -47,7 +47,7 @@ VUE_APP_SPIDERX_HEROKU=<URLHERE> // the hosted scraper url
 ```
 
 3. **Then run <code>npm i && npm run serve</code> to see the spider in action**
-***
+
 ## UI
 
 ### Home
